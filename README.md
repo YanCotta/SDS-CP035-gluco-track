@@ -2,6 +2,9 @@
 
 ## 🧠 Project Overview
 
+-> shared repository with all team members work: https://github.com/SuperDataScience-Community-Projects/SDS-CP035-gluco-track
+
+
 GlucoTrack is a health-focused classification project that aims to predict whether an individual is diabetic, pre-diabetic, or non-diabetic using self-reported survey and biometric data. The dataset includes responses collected by the CDC on physical activity, BMI, mental health, general wellness, and other lifestyle variables.
 
 The project is built around a real-world public health challenge: how do we identify individuals at risk before it’s too late? You’ll analyze patterns in health behavior and demographic variables to develop a predictive model that supports early interventions.
