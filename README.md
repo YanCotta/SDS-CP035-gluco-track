@@ -1,5 +1,33 @@
 # GlucoTrack: Predicting Diabetes Likelihood from Lifestyle and Clinical Data
 
+## Deployment
+
+Run the Streamlit app locally to interact with the champion model (Balanced FFNN) and get diabetes risk predictions.
+
+Prerequisites:
+- Python 3.9+
+- Dependencies: `streamlit`, `torch`, `pandas`, `numpy`, `scikit-learn`, `joblib`
+
+Quick start:
+
+```bash
+# Create and activate a virtual environment (optional but recommended)
+python -m venv .venv
+source .venv/bin/activate  # Linux/macOS
+
+# Install dependencies
+pip install --upgrade pip
+pip install streamlit torch pandas numpy scikit-learn joblib
+
+# Launch the app
+cd yan-cotta
+streamlit run app.py
+```
+
+Notes:
+- The app loads artifacts from `yan-cotta/deployment_artifacts` (model weights and preprocessing objects) generated from the Week 2 and Week 3 notebooks.
+- If you update preprocessing or retrain the model, re-run the last cells in those notebooks to refresh the files in `deployment_artifacts` before restarting the app.
+
 ## 🧠 Project Overview
 
 -> shared repository with all team members work: https://github.com/SuperDataScience-Community-Projects/SDS-CP035-gluco-track
