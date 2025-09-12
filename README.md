@@ -1,5 +1,7 @@
 # GlucoTrack: Predicting Diabetes Likelihood from Lifestyle and Clinical Data
 
+Live app: [glucotrack.streamlit.app](https://glucotrack.streamlit.app/)
+
 ## Deployment
 
 Run the Streamlit app locally to interact with the champion model (Balanced FFNN) and get diabetes risk predictions.
