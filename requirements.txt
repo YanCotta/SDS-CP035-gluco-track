@@ -1,0 +1,8 @@
+streamlit>=1.36,<2
+pandas>=2.0,<3
+numpy>=1.24,<3
+scikit-learn>=1.3,<2
+joblib>=1.2,<2
+# Use CPU-only torch build compatible with manylinux; Streamlit Cloud supports this
+# If this fails, we can pin to a specific version like 2.2.2+cpu via extra index
+torch==2.2.2
